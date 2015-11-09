@@ -33,7 +33,7 @@ It will install [QSTK][1] and all its dependencies on the new virtual machine.
 
 Execute the following commands to see that everything works:
 
-    vagrant ssh
+    vagrant -Y ssh
     cd QSTK-0.2.8/Examples
     python Validation.py
 
@@ -47,6 +47,10 @@ To uninstall this installation from your computer type:
 
 This will remove the virtual machine and the QSTK installed on it.
 
+# For Mac Users
+In order to see the pdfs generated on your local machine, you might need to install [XQuartz][4]so you can do the x11 forwarding that is needed fromt the virtual machine.
+
 [1]: http://wiki.quantsoftware.org/index.php?title=QSToolKit_Installation_Guide_Ubuntu "QSTK"
 [2]: http://www.vagrantup.com/ "Vagrant"
 [3]: https://www.virtualbox.org/ "VirtualBox"
+[4]: http://www.xquartz.org/ "XQuartz"
