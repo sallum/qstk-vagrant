@@ -17,4 +17,7 @@ sudo python setup.py install
 
 echo "[QSTK] The installation is finished..."
 
+echo "Installing git for code sharing"
+sudo apt-get install git -y
+sudo apt-get install evince -y
 
